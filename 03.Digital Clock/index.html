@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <title>Your Local Time</title>
+    <style>
+      body {
+        background-color: #1d3557;
+        color: #fff;
+      }
+      .center {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      .bona-nova-sc-regular {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .bona-nova-sc-bold {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+
+      .bona-nova-sc-regular-italic {
+        font-family: "Bona Nova SC", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+
+      #clock {
+        font-size: 38vh;
+        padding: 20px 50px;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-family: "PT Serif", serif; /* Default PT Serif */
+        font-weight: 400; /* Regular weight */
+      }
+
+      .am-pm {
+        font-size: 50px;
+        vertical-align: text-top;
+        opacity: 0.7;
+        font-family: "PT Serif", serif;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <div id="banner"></div>
+      <div id="clock" class="pt-serif-regular"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
